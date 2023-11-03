@@ -7,6 +7,8 @@ if the inputted username/password matches what's in our User Array.
         and creating the User Array.
 */
 
+import java.util.Scanner;
+
 public class UserService {
 
     //this
@@ -18,24 +20,20 @@ the username, password and name above.
 
     //Here I just want to read in the file and store all the records in an array
     // I BELIEVE it is here that I need to create an array of UserRecord objects but unsure how
-    public User createUser(String customer){
+
+    // this should only create a user and then this will return an User object, then
+   // we use the return value of this method (shown below) and pass it to an array (create )
+    public User createUser(String custRec ){
         // we have to instantiate a new user here
        // UserRecord user = new UserRecord();
 
+    User user = new User();
+    String[] fields = parseText(custRec);
+    user.setUsername(fields[0]);
+    user.setPassword(fields[1]);
+    user.setName(fields[2]);
 
-
-        User[] user = new User[4];
-
-        //here we should capture the record string
-        //we then need to parse this string into fields
-        //we then should create an array of UsuarioRecords (that has 3 fields in it).
-
-
-       // user.setUsername(customer[0]);
-       // user.setPassword(customer[1]);
-       // user.setName(customer[2]);
-        //have to return the user record
-        return user[0];
+    return user;
     }
 
     /*
@@ -47,5 +45,13 @@ the username, password and name above.
 
     }
 
+    public String getUserName (){
+        Scanner scan = new Scanner(System.in);
+    return scan.nextLine();
+    }
 
+    public String getUserPwd (){
+        Scanner scan = new Scanner(System.in);
+        return scan.nextLine();
+    }
 }

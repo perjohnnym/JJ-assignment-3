@@ -1,4 +1,4 @@
-test@email.com,passwordTest!1,Terry Mitchell
-dickey@duck.com,password1,John Dickey
+terry@email.com,password1,Terry Mitchell
+dickey@duck.com,password2,John Dickey
 frijol33@gmail.com,Contra55!,Frank Smith
 Ricky.Gervais@gmail.com,Pito2,Rick Gervaias
