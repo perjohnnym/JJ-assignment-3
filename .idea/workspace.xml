@@ -8,9 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6e3ecd-1024-4cff-94c3-71a210e1d767" name="Changes" comment="This is functioning runnable code; this is my backup">
+    <list default="true" id="fa6e3ecd-1024-4cff-94c3-71a210e1d767" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coderscampus/userlogin/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserLoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserLoginApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserService.java" afterDir="false" />
     </list>
@@ -28,6 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;perjohnnym&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7746bcd7-c001-4942-ab7b-f2aa29a1f7aa" />
+        <option name="url" value="https://github.com/perjohnnym/JJ-assignment-3.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/coderscampus/userlogin/UserLoginApplication.java" root0="SKIP_INSPECTION" />
@@ -47,10 +61,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/juanjmore33/CodersCampus/Week5/JJ-assignment-3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -106,7 +125,26 @@
       <workItem from="1698876769212" duration="3438000" />
       <workItem from="1698965950127" duration="6693000" />
       <workItem from="1699051448930" duration="739000" />
-      <workItem from="1699052243759" duration="2441000" />
+      <workItem from="1699052243759" duration="3072000" />
+      <workItem from="1699481304189" duration="280000" />
+      <workItem from="1699482042566" duration="25000" />
+      <workItem from="1699482094656" duration="127000" />
+      <workItem from="1699485182493" duration="134000" />
+      <workItem from="1699485350800" duration="104000" />
+      <workItem from="1699491562710" duration="59000" />
+      <workItem from="1699569711162" duration="144000" />
+      <workItem from="1699570149014" duration="538000" />
+      <workItem from="1699988926546" duration="547000" />
+      <workItem from="1699989746845" duration="270000" />
+      <workItem from="1700094786985" duration="1586000" />
+      <workItem from="1700266896250" duration="7000" />
+      <workItem from="1700435656149" duration="973000" />
+      <workItem from="1700526866358" duration="962000" />
+      <workItem from="1700860440713" duration="4970000" />
+      <workItem from="1700868079297" duration="668000" />
+      <workItem from="1700869330248" duration="2436000" />
+      <workItem from="1700872087346" duration="1872000" />
+      <workItem from="1700955177430" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="This is functioning runnable code; this is my backup">
       <option name="closed" value="true" />
@@ -116,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698018523654</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="This is functioning runnable code; this is my backup">
+      <option name="closed" value="true" />
+      <created>1699055048162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699055048162</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

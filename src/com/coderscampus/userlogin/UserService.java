@@ -1,4 +1,5 @@
 package com.coderscampus.userlogin;
+import java.util.Scanner;
 
 /*
 You should make use of a UserService class that will help with things like validating
@@ -7,7 +8,6 @@ if the inputted username/password matches what's in our User Array.
         and creating the User Array.
 */
 
-import java.util.Scanner;
 
 public class UserService {
 
@@ -23,12 +23,11 @@ the username, password and name above.
 
     // this should only create a user and then this will return an User object, then
    // we use the return value of this method (shown below) and pass it to an array (create )
-    public User createUser(String custRec ){
+    public User createUser(String lineDetail ){
         // we have to instantiate a new user here
-       // UserRecord user = new UserRecord();
 
     User user = new User();
-    String[] fields = parseText(custRec);
+    String[] fields = parseText(lineDetail);
     user.setUsername(fields[0]);
     user.setPassword(fields[1]);
     user.setName(fields[2]);
