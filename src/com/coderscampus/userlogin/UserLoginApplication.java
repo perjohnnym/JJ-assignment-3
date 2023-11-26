@@ -7,16 +7,18 @@ public class UserLoginApplication {
 
     public static void main(String[] args) {
 
+        int match = 0;
+        int failedAttempt = 0;
 
         String userName = " ";
         String userPassword = " ";
 
-        // here we can create an array of  'User' objects..
-        User[] users = new User[4];
-        int failedAttempt = 0;
-        int match = 0;
+
+
+
 
         //Read through the file and then parse into User data fields
+        /*
         BufferedReader fileReader = null;
         try {
             fileReader = new BufferedReader(new FileReader("data.txt"));
@@ -24,6 +26,9 @@ public class UserLoginApplication {
             throw new RuntimeException(e);
         }
 
+         */
+
+        /*
         String lineDetail;
         int i = 0;
         //Note:  We must instantiate this 'UserService' because the method -createUser- that we need
@@ -42,14 +47,15 @@ public class UserLoginApplication {
 
                String fields[] = lineDetail.split(",");
 
-                users[i] = userservice.createUser(lineDetail);
+            //    users[i] = userservice.createUser(lineDetail);
+                users[i] = new User(fields[0], fields[1], fields[2]);
                 i = i + 1;
 
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }
-
+*/
 
         while (true) {
             if (match == 1) break;
