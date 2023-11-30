@@ -9,10 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6e3ecd-1024-4cff-94c3-71a210e1d767" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserInputHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coderscampus/userlogin/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserInputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserInputHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserLoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserLoginApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderscampus/userlogin/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -71,7 +77,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -144,7 +150,11 @@
       <workItem from="1700868079297" duration="668000" />
       <workItem from="1700869330248" duration="2436000" />
       <workItem from="1700872087346" duration="1872000" />
-      <workItem from="1700955177430" duration="2726000" />
+      <workItem from="1700955177430" duration="3858000" />
+      <workItem from="1701019641721" duration="3633000" />
+      <workItem from="1701122985578" duration="6476000" />
+      <workItem from="1701217125871" duration="5614000" />
+      <workItem from="1701296953288" duration="4479000" />
     </task>
     <task id="LOCAL-00001" summary="This is functioning runnable code; this is my backup">
       <option name="closed" value="true" />
@@ -170,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700955698972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="This is functioning runnable code; this is my backup">
+      <option name="closed" value="true" />
+      <created>1700957985539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700957985539</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
